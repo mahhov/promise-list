@@ -22,10 +22,15 @@ promisel.then(num => num - 1).then(num => num * 2).toPromise().then(numList => {
 
 ## Overview
 `new PromiseL(promise)`
+
 `proimseL.then(function)`
+
 `promiseL.catch(function)`
+
 `promiseL.toProimse()`
+
 `ProimseL.resolve(array)`
+
 `PromiseL.reject(array)`
 
 ## Spec
@@ -34,7 +39,7 @@ promisel.then(num => num - 1).then(num => num * 2).toPromise().then(numList => {
 
 `new PromiseL(Promise)`
 
-accepts a `Promise` that resolves with a array
+accepts a `Promise` that resolves with an array
 
 returns `PromseL`
 
