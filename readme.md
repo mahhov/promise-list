@@ -2,7 +2,7 @@
 
 ### Setup
 
-`npm i -save promise-l
+`npm i -save promise-l`
 
 ### With traditional promises
 
