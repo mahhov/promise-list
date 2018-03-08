@@ -20,11 +20,15 @@ promisel.then(num => num - 1).then(num => num * 2).toPromise().then(numList => {
 // [ 0, 2, 4, 6 ]
 ```
 
-## Why
+## Overview
+`new PromiseL(promise)`
+`proimseL.then(function)`
+`promiseL.catch(function)`
+`promiseL.toProimse()`
+`ProimseL.resolve(array)`
+`PromiseL.reject(array)`
 
-because it's better
-
-## spec
+## Spec
 
 ### constructor
 
