@@ -4,6 +4,8 @@
 
 `npm i -save promise-l`
 
+`const PromiseL = require('promise-l');`
+
 ## With traditional promises
 
 ```
