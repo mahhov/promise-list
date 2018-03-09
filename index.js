@@ -8,7 +8,7 @@ class PromiseL {
     }
 
     catch(handler) {
-        return new PromiseL(this.promise.then(dataList => dataList.map(handler)))
+        return new PromiseL(this.promise.then(dataList => dataList.map(handler)));
     };
 
     toPromise() {
@@ -23,7 +23,11 @@ class PromiseL {
         return new PromiseL(Promise.reject(list));
     }
 
-    static all() {}
+    static all() {
+    }
 
-    static race() {}
-};
+    static race() {
+    }
+}
+
+module.exports = PromiseL;
